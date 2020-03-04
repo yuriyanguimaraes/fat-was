@@ -30,7 +30,7 @@ class Login extends StatelessWidget {
             //   invertType: true,
             // ),
             Text(
-              "Username",
+              "Usuário",
               style: TextStyle(
                 color: Color(0xFF002B32),
                 fontWeight: FontWeight.w300,
@@ -63,7 +63,7 @@ class Login extends StatelessWidget {
               height: 10,
             ),
             Text(
-              "Password",
+              "Senha",
               style: TextStyle(
                 color: Color(0xFF002B32),
                 fontWeight: FontWeight.w300,
@@ -120,7 +120,7 @@ class Login extends StatelessWidget {
                 child: FlatButton(
                   onPressed: (){},
                   child: Text(
-                    "SING IN",
+                    "ENTRAR",
                     style: TextStyle(
                       fontWeight: FontWeight.w400,
                       color: Colors.white,
