@@ -1,4 +1,5 @@
 //import 'package:find_a_table/widgets/input.widget.dart';
+import 'package:fat/widgets/login.widget.dart';
 import 'package:flutter/material.dart';
 
 class Login extends StatelessWidget {
@@ -16,19 +17,6 @@ class Login extends StatelessWidget {
             SizedBox(
               height: 25,
             ),
-            // LoginInput(
-            //   label: "Email",
-            //   hintText: "Nicolas Cage",
-            //   invertType: false,
-            // ),
-            // SizedBox(
-            //   height: 15,
-            // ),
-            // LoginInput(
-            //   label: "Password",
-            //   hintText: "..........",
-            //   invertType: true,
-            // ),
             Text(
               "Usuário",
               style: TextStyle(
@@ -40,25 +28,29 @@ class Login extends StatelessWidget {
             SizedBox(
               height: 11,
             ),
-            TextFormField(
-              keyboardType: TextInputType.emailAddress,
-              decoration: InputDecoration(
-                  // icon: Icon(Icons.person),
-                  //labelText: "E-mail",
-                  hintText: "Nicolas Cage",
-                  labelStyle: TextStyle(
-                    color: Color(0xFF002B32),
-                    fontWeight: FontWeight.w300,
-                    fontSize: 15,
-                  ),
-                  border: OutlineInputBorder(),
-                  focusedBorder: OutlineInputBorder(
-                    borderSide: BorderSide(color: Color(0xFF002B32)),
-                  )),
-              style: TextStyle(
-                fontSize: 15,
-              ),
+            LoginInput(
+              placeHolder: "Nicolas Cage",
+              password: false,
             ),
+            // TextFormField(
+            //   keyboardType: TextInputType.emailAddress,
+            //   decoration: InputDecoration(
+            //       // icon: Icon(Icons.person),
+            //       //labelText: "E-mail",
+            //       hintText: "Nicolas Cage",
+            //       labelStyle: TextStyle(
+            //         color: Color(0xFF002B32),
+            //         fontWeight: FontWeight.w300,
+            //         fontSize: 15,
+            //       ),
+            //       border: OutlineInputBorder(),
+            //       focusedBorder: OutlineInputBorder(
+            //         borderSide: BorderSide(color: Color(0xFF002B32)),
+            //       )),
+            //   style: TextStyle(
+            //     fontSize: 15,
+            //   ),
+            // ),
             SizedBox(
               height: 10,
             ),
@@ -73,27 +65,30 @@ class Login extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            
-            TextFormField(
-              keyboardType: TextInputType.text,
-              obscureText: true,
-              decoration: InputDecoration(
-                  // icon: Icon(Icons.lock),
-                  //labelText: "E-mail",
-                  hintText: "...........",
-                  labelStyle: TextStyle(
-                    color: Color(0xFF002B32),
-                    fontWeight: FontWeight.w300,
-                    fontSize: 15,
-                  ),
-                  border: OutlineInputBorder(),
-                  focusedBorder: OutlineInputBorder(
-                    borderSide: BorderSide(color: Color(0xFF002B32)),
-                  )),
-              style: TextStyle(
-                fontSize: 15,
-              ),
+            LoginInput(
+              placeHolder: "...............",
+              password: true,
             ),
+            // TextFormField(
+            //   keyboardType: TextInputType.text,
+            //   obscureText: true,
+            //   decoration: InputDecoration(
+            //       // icon: Icon(Icons.lock),
+            //       //labelText: "E-mail",
+            //       hintText: "...........",
+            //       labelStyle: TextStyle(
+            //         color: Color(0xFF002B32),
+            //         fontWeight: FontWeight.w300,
+            //         fontSize: 15,
+            //       ),
+            //       border: OutlineInputBorder(),
+            //       focusedBorder: OutlineInputBorder(
+            //         borderSide: BorderSide(color: Color(0xFF002B32)),
+            //       )),
+            //   style: TextStyle(
+            //     fontSize: 15,
+            //   ),
+            // ),
             Container(
               height: 40,
               alignment: Alignment.centerRight,
