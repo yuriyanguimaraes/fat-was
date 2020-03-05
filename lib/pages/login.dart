@@ -1,4 +1,5 @@
 //import 'package:find_a_table/widgets/input.widget.dart';
+import 'package:fat/pages/resetPassword.dart';
 import 'package:fat/widgets/login.widget.dart';
 import 'package:flutter/material.dart';
 
@@ -101,7 +102,14 @@ class Login extends StatelessWidget {
                     fontWeight: FontWeight.w300,
                   ),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => ResetPassword(),
+                    ),
+                  );
+                },
               ),
             ),
             SizedBox(
