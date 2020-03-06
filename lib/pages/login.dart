@@ -34,25 +34,6 @@ class Login extends StatelessWidget {
               placeHolder: "Nicolas Cage",
               password: false,
             ),
-            // TextFormField(
-            //   keyboardType: TextInputType.emailAddress,
-            //   decoration: InputDecoration(
-            //       // icon: Icon(Icons.person),
-            //       //labelText: "E-mail",
-            //       hintText: "Nicolas Cage",
-            //       labelStyle: TextStyle(
-            //         color: Color(0xFF002B32),
-            //         fontWeight: FontWeight.w300,
-            //         fontSize: 15,
-            //       ),
-            //       border: OutlineInputBorder(),
-            //       focusedBorder: OutlineInputBorder(
-            //         borderSide: BorderSide(color: Color(0xFF002B32)),
-            //       )),
-            //   style: TextStyle(
-            //     fontSize: 15,
-            //   ),
-            // ),
             SizedBox(
               height: 10,
             ),
@@ -71,26 +52,6 @@ class Login extends StatelessWidget {
               placeHolder: "...............",
               password: true,
             ),
-            // TextFormField(
-            //   keyboardType: TextInputType.text,
-            //   obscureText: true,
-            //   decoration: InputDecoration(
-            //       // icon: Icon(Icons.lock),
-            //       //labelText: "E-mail",
-            //       hintText: "...........",
-            //       labelStyle: TextStyle(
-            //         color: Color(0xFF002B32),
-            //         fontWeight: FontWeight.w300,
-            //         fontSize: 15,
-            //       ),
-            //       border: OutlineInputBorder(),
-            //       focusedBorder: OutlineInputBorder(
-            //         borderSide: BorderSide(color: Color(0xFF002B32)),
-            //       )),
-            //   style: TextStyle(
-            //     fontSize: 15,
-            //   ),
-            // ),
             Container(
               height: 40,
               alignment: Alignment.centerRight,
