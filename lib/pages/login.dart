@@ -1,4 +1,5 @@
 //import 'package:find_a_table/widgets/input.widget.dart';
+import 'package:fat/pages/cadastrar.dart';
 import 'package:fat/pages/resetPassword.dart';
 import 'package:fat/widgets/login.widget.dart';
 import 'package:flutter/material.dart';
@@ -121,7 +122,7 @@ class Login extends StatelessWidget {
               decoration: BoxDecoration(color: Color(0xFF002B32)),
               child: SizedBox.expand(
                 child: FlatButton(
-                  onPressed: (){},
+                  onPressed: () {},
                   child: Text(
                     "ENTRAR",
                     style: TextStyle(
@@ -133,12 +134,12 @@ class Login extends StatelessWidget {
                   ),
                 ),
               ),
-            ),  
+            ),
             Text(
               "OU",
               style: TextStyle(
                 color: Color(0xFF002B32),
-                fontSize: 15 ,
+                fontSize: 15,
                 fontWeight: FontWeight.w300,
               ),
               textAlign: TextAlign.center,
@@ -149,7 +150,7 @@ class Login extends StatelessWidget {
               decoration: BoxDecoration(color: Color(0xFF4167b2)),
               child: SizedBox.expand(
                 child: FlatButton(
-                  onPressed: (){},
+                  onPressed: () {},
                   child: Text(
                     "FACEBOOK",
                     style: TextStyle(
@@ -174,7 +175,14 @@ class Login extends StatelessWidget {
                     fontWeight: FontWeight.w300,
                   ),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => Cadastrar(),
+                    ),
+                  );
+                },
               ),
             ),
           ],
