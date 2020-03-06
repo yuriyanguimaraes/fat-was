@@ -6,11 +6,8 @@ class Home extends StatelessWidget {
     return Scaffold(
       body: Container(
         padding: EdgeInsets.only(top: 20, left: 25, right: 25),
-        child: Column(
+        child: ListView(
           children: <Widget>[
-            SizedBox(
-              height: 20,
-            ),
             TextFormField(
               keyboardType: TextInputType.text,
               decoration: InputDecoration(
@@ -29,6 +26,135 @@ class Home extends StatelessWidget {
               style: TextStyle(
                 fontSize: 15,
               ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              "Categorias",
+              style: TextStyle(
+                color: Color(0xFF002B32),
+                fontWeight: FontWeight.w300,
+                fontSize: 20,
+              ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              children: <Widget>[
+                Expanded(
+                  child: Image.asset(
+                    "assets/images/LogoFaT.png",
+                    height: 50,
+                  ),
+                ),
+                Expanded(
+                  child: Image.asset(
+                    "assets/images/esqueceu_a_senha.png",
+                    height: 50,
+                  ),
+                ),
+                Expanded(
+                  child: Image.asset(
+                    "assets/images/LogoFaT.png",
+                    height: 50,
+                  ),
+                ),
+                Expanded(
+                  child: Image.asset(
+                    "assets/images/esqueceu_a_senha.png",
+                    height: 50,
+                  ),
+                ),
+              ],
+            ),
+            Row(
+              children: <Widget>[
+                Expanded(
+                  child: Text(
+                    "Medieval",
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+                Expanded(
+                  child: Text(
+                    "Medieval",
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+                Expanded(
+                  child: Text(
+                    "Medieval",
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+                Expanded(
+                  child: Text(
+                    "Medieval",
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              children: <Widget>[
+                Expanded(
+                  child: Image.asset(
+                    "assets/images/LogoFaT.png",
+                    height: 50,
+                  ),
+                ),
+                Expanded(
+                  child: Image.asset(
+                    "assets/images/esqueceu_a_senha.png",
+                    height: 50,
+                  ),
+                ),
+                Expanded(
+                  child: Image.asset(
+                    "assets/images/LogoFaT.png",
+                    height: 50,
+                  ),
+                ),
+                Expanded(
+                  child: Image.asset(
+                    "assets/images/esqueceu_a_senha.png",
+                    height: 50,
+                  ),
+                ),
+              ],
+            ),
+            Row(
+              children: <Widget>[
+                Expanded(
+                  child: Text(
+                    "Medieval",
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+                Expanded(
+                  child: Text(
+                    "Medieval",
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+                Expanded(
+                  child: Text(
+                    "Medieval",
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+                Expanded(
+                  child: Text(
+                    "Medieval",
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ],
             ),
           ],
         ),
