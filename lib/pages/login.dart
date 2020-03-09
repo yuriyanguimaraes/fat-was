@@ -1,5 +1,6 @@
 //import 'package:find_a_table/widgets/input.widget.dart';
 import 'package:fat/pages/cadastrar.dart';
+import 'package:fat/pages/home.dart';
 import 'package:fat/pages/resetPassword.dart';
 import 'package:fat/widgets/login.widget.dart';
 import 'package:flutter/material.dart';
@@ -83,7 +84,14 @@ class Login extends StatelessWidget {
               decoration: BoxDecoration(color: Color(0xFF002B32)),
               child: SizedBox.expand(
                 child: FlatButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => Home(),
+                      ),
+                    );
+                  },
                   child: Text(
                     "ENTRAR",
                     style: TextStyle(

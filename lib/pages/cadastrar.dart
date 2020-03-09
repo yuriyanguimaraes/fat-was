@@ -1,6 +1,8 @@
 import 'package:fat/widgets/login.widget.dart';
 import 'package:flutter/material.dart';
 
+import 'home.dart';
+
 class Cadastrar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -94,7 +96,14 @@ class Cadastrar extends StatelessWidget {
               decoration: BoxDecoration(color: Color(0xFF002B32)),
               child: SizedBox.expand(
                 child: FlatButton(
-                  onPressed: (){},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => Home(),
+                      ),
+                    );
+                  },
                   child: Text(
                     "ENTRAR",
                     style: TextStyle(
