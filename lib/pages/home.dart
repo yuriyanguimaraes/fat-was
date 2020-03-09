@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,7 +35,7 @@ class Home extends StatelessWidget {
               "Categorias",
               style: TextStyle(
                 color: Color(0xFF002B32),
-                fontWeight: FontWeight.w300,
+                fontWeight: FontWeight.w400,
                 fontSize: 20,
               ),
             ),
@@ -179,6 +180,17 @@ class Home extends StatelessWidget {
                   ),
                 ),
               ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              "Mesas",
+              style: TextStyle(
+                color: Color(0xFF002B32),
+                fontWeight: FontWeight.w400,
+                fontSize: 20,
+              ),
             ),
           ],
         ),

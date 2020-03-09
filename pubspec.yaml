@@ -44,6 +44,8 @@ flutter:
   assets:
    - assets/images/LogoFaT.png
    - assets/images/esqueceu_a_senha.png
+   - assets/images/mesa1.jpg
+   - assets/images/mesa2.jpg
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
