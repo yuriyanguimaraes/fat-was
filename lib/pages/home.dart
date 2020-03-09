@@ -44,27 +44,39 @@ class Home extends StatelessWidget {
             Row(
               children: <Widget>[
                 Expanded(
-                  child: Image.asset(
-                    "assets/images/LogoFaT.png",
-                    height: 50,
+                  child: FlatButton(
+                    onPressed: () {},
+                    child: Image.asset(
+                      "assets/images/esqueceu_a_senha.png",
+                      height: 50,
+                    ),
                   ),
                 ),
                 Expanded(
-                  child: Image.asset(
-                    "assets/images/esqueceu_a_senha.png",
-                    height: 50,
+                  child: FlatButton(
+                    onPressed: () {},
+                    child: Image.asset(
+                      "assets/images/esqueceu_a_senha.png",
+                      height: 50,
+                    ),
                   ),
                 ),
                 Expanded(
-                  child: Image.asset(
-                    "assets/images/LogoFaT.png",
-                    height: 50,
+                  child: FlatButton(
+                    onPressed: () {},
+                    child: Image.asset(
+                      "assets/images/esqueceu_a_senha.png",
+                      height: 50,
+                    ),
                   ),
                 ),
                 Expanded(
-                  child: Image.asset(
-                    "assets/images/esqueceu_a_senha.png",
-                    height: 50,
+                  child: FlatButton(
+                    onPressed: () {},
+                    child: Image.asset(
+                      "assets/images/esqueceu_a_senha.png",
+                      height: 50,
+                    ),
                   ),
                 ),
               ],
@@ -79,19 +91,19 @@ class Home extends StatelessWidget {
                 ),
                 Expanded(
                   child: Text(
-                    "Medieval",
+                    "Cyberpunk",
                     textAlign: TextAlign.center,
                   ),
                 ),
                 Expanded(
                   child: Text(
-                    "Medieval",
+                    "Cthulhu",
                     textAlign: TextAlign.center,
                   ),
                 ),
                 Expanded(
                   child: Text(
-                    "Medieval",
+                    "Terror",
                     textAlign: TextAlign.center,
                   ),
                 ),
@@ -103,27 +115,39 @@ class Home extends StatelessWidget {
             Row(
               children: <Widget>[
                 Expanded(
-                  child: Image.asset(
-                    "assets/images/LogoFaT.png",
-                    height: 50,
+                  child: FlatButton(
+                    onPressed: () {},
+                    child: Image.asset(
+                      "assets/images/esqueceu_a_senha.png",
+                      height: 50,
+                    ),
                   ),
                 ),
                 Expanded(
-                  child: Image.asset(
-                    "assets/images/esqueceu_a_senha.png",
-                    height: 50,
+                  child: FlatButton(
+                    onPressed: () {},
+                    child: Image.asset(
+                      "assets/images/esqueceu_a_senha.png",
+                      height: 50,
+                    ),
                   ),
                 ),
                 Expanded(
-                  child: Image.asset(
-                    "assets/images/LogoFaT.png",
-                    height: 50,
+                  child: FlatButton(
+                    onPressed: () {},
+                    child: Image.asset(
+                      "assets/images/esqueceu_a_senha.png",
+                      height: 50,
+                    ),
                   ),
                 ),
                 Expanded(
-                  child: Image.asset(
-                    "assets/images/esqueceu_a_senha.png",
-                    height: 50,
+                  child: FlatButton(
+                    onPressed: () {},
+                    child: Image.asset(
+                      "assets/images/esqueceu_a_senha.png",
+                      height: 50,
+                    ),
                   ),
                 ),
               ],
@@ -132,25 +156,25 @@ class Home extends StatelessWidget {
               children: <Widget>[
                 Expanded(
                   child: Text(
-                    "Medieval",
+                    "Apocalipse Zumbi",
                     textAlign: TextAlign.center,
                   ),
                 ),
                 Expanded(
                   child: Text(
-                    "Medieval",
+                    "Vampiro",
                     textAlign: TextAlign.center,
                   ),
                 ),
                 Expanded(
                   child: Text(
-                    "Medieval",
+                    "Star Wars",
                     textAlign: TextAlign.center,
                   ),
                 ),
                 Expanded(
                   child: Text(
-                    "Medieval",
+                    "Investigação",
                     textAlign: TextAlign.center,
                   ),
                 ),
