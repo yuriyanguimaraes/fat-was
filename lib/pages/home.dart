@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -88,24 +87,36 @@ class Home extends StatelessWidget {
                   child: Text(
                     "Medieval",
                     textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 12,
+                    ),
                   ),
                 ),
                 Expanded(
                   child: Text(
                     "Cyberpunk",
                     textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 12,
+                    ),
                   ),
                 ),
                 Expanded(
                   child: Text(
                     "Cthulhu",
                     textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 12,
+                    ),
                   ),
                 ),
                 Expanded(
                   child: Text(
                     "Terror",
                     textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 12,
+                    ),
                   ),
                 ),
               ],
@@ -159,24 +170,36 @@ class Home extends StatelessWidget {
                   child: Text(
                     "Apocalipse Zumbi",
                     textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 12,
+                    ),
                   ),
                 ),
                 Expanded(
                   child: Text(
                     "Vampiro",
                     textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 12,
+                    ),
                   ),
                 ),
                 Expanded(
                   child: Text(
                     "Star Wars",
                     textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 12,
+                    ),
                   ),
                 ),
                 Expanded(
                   child: Text(
                     "Investigação",
                     textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 12,
+                    ),
                   ),
                 ),
               ],
